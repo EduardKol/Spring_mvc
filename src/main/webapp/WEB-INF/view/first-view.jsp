@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h2> Hello! </h2>
+        <h2> Test Project </h2>
     </body>
 </html>
