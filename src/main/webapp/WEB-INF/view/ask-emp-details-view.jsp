@@ -13,5 +13,14 @@
     <input type="submit"/>
 
 </form>
+<br>
+<br>
+<form action="showRealDetails" method="get">
+<label>
+    <input type="text" name="TrueName"
+           placeholder="Write your true name"/>
+</label>
+    <input type="submit"/>
+</form>
 </body>
 </html>
