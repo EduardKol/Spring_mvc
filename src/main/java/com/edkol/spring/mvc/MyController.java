@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
+@RequestMapping("/employee")
 public class MyController{
 
     @RequestMapping("/")
@@ -17,7 +18,8 @@ public class MyController{
     }
 
     @RequestMapping("/askDetails")
-    public String askEmployeeDetails() {
+    public String askEmployeeDetails(Model model) {
+        model.addAttribute("employee", new RoyalEmployee());
         return "ask-emp-details-view";
     }
 //Вариант HttpServletRequest
